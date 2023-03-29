@@ -1,0 +1,21 @@
+@media (min-width: 250px) and (max-width: 720px) {
+    .Card__product {
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 250px) {
+    .Container {
+        width: 250px;
+        height: 682px;
+    }
+
+    img {
+        max-width: 99%; 
+    }
+    
+    .basket {
+        width: 70%;
+    }
+}

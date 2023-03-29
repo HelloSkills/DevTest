@@ -1,0 +1,38 @@
+//   Important button
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: static !important;
+  width: 25px !important;
+  height: 15px !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+// Other
+
+.slider {
+    margin-bottom: 20px;
+  }
+
+  .slider-title {
+    display: flex;
+    justify-content: start;
+    font-size: 24px;
+    font-family: "PTRootUIWebBold";
+    font-style: normal;
+  }
+  
+  .slider-arrows.image-slider__slide {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .swiper-button-prev {
+    margin-right: 25px;
+  }
+  

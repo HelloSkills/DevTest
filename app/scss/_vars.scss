@@ -1,0 +1,16 @@
+
+$grey: #64696E;
+
+
+
+@mixin f700 {
+    font-family: 'PTRootUIWebBold';
+    font-weight: 700;
+    font-style: normal;
+}
+
+@mixin f400 {
+    font-family: 'PTRootUIWebRegular';
+    font-weight: 400;
+    font-style: normal;
+}
